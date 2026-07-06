@@ -14054,6 +14054,7 @@ progress {
   }
 }
 :root {
+  --ds-navbar-bg: #ffffff;
   --ds-breakpoint-xs: 0;
   --ds-breakpoint-sm: 576px;
   --ds-breakpoint-md: 768px;
@@ -35891,6 +35892,7 @@ html.expanded #content .navbar-glass .collapse-expanded {
 .offcanvasNav {
   width: 250px !important;
   border-right: 1px dashed var(--ds-gray-300) !important;
+  background-color: var(--ds-navbar-bg) !important;
 }
 .offcanvasNav .brand-logo {
   position: sticky;
@@ -36838,7 +36840,7 @@ text {
 [data-bs-theme=dark] {
   --ds-primary-lighter: #007867;
   --ds-danger-lighter: #b71d18;
-  --ds-navbar-bg: $gray-800;
+  --ds-navbar-bg: #141a21;
   --ds-box-shadow-xs: 0 1px 2px 0 rgba(0 0 0 / 0.16) !important;
   --ds-box-shadow: 0 4px 8px 0 rgba(0 0 0 / 0.16) !important;
   --ds-box-shadow-sm: 0 8px 16px 0 rgba(0 0 0 / 0.16) !important;

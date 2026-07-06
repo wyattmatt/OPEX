@@ -5,27 +5,27 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta content="Codescandy" name="author">
-    <title>Otp varification | Dasher - Responsive Bootstrap 5 Admin Dashboard</title>
+    <title>Reset Password</title>
     <!-- Favicon icon-->
-<link rel="apple-touch-icon" sizes="57x57" href="{{ asset('dasher-assets') }}/assets/images/favicon/apple-icon-57x57.png" />
-<link rel="apple-touch-icon" sizes="60x60" href="{{ asset('dasher-assets') }}/assets/images/favicon/apple-icon-60x60.png" />
-<link rel="apple-touch-icon" sizes="72x72" href="{{ asset('dasher-assets') }}/assets/images/favicon/apple-icon-72x72.png" />
-<link rel="apple-touch-icon" sizes="76x76" href="{{ asset('dasher-assets') }}/assets/images/favicon/apple-icon-76x76.png" />
-<link rel="apple-touch-icon" sizes="114x114" href="{{ asset('dasher-assets') }}/assets/images/favicon/apple-icon-114x114.png" />
-<link rel="apple-touch-icon" sizes="120x120" href="{{ asset('dasher-assets') }}/assets/images/favicon/apple-icon-120x120.png" />
-<link rel="apple-touch-icon" sizes="144x144" href="{{ asset('dasher-assets') }}/assets/images/favicon/apple-icon-144x144.png" />
-<link rel="apple-touch-icon" sizes="152x152" href="{{ asset('dasher-assets') }}/assets/images/favicon/apple-icon-152x152.png" />
-<link rel="apple-touch-icon" sizes="180x180" href="{{ asset('dasher-assets') }}/assets/images/favicon/apple-icon-180x180.png" />
-<link rel="icon" type="image/png" sizes="192x192" href="{{ asset('dasher-assets') }}/assets/images/favicon/android-icon-192x192.png" />
-<link rel="icon" type="image/png" sizes="32x32" href="{{ asset('dasher-assets') }}/assets/images/favicon/favicon-32x32.png" />
-<link rel="icon" type="image/png" sizes="96x96" href="{{ asset('dasher-assets') }}/assets/images/favicon/favicon-96x96.png" />
-<link rel="icon" type="image/png" sizes="16x16" href="{{ asset('dasher-assets') }}/assets/images/favicon/favicon-16x16.png" />
+<link rel="apple-touch-icon" sizes="57x57" href="{{ asset('assets/images/favicon/apple-icon-57x57.png') }}" />
+<link rel="apple-touch-icon" sizes="60x60" href="{{ asset('assets/images/favicon/apple-icon-60x60.png') }}" />
+<link rel="apple-touch-icon" sizes="72x72" href="{{ asset('assets/images/favicon/apple-icon-72x72.png') }}" />
+<link rel="apple-touch-icon" sizes="76x76" href="{{ asset('assets/images/favicon/apple-icon-76x76.png') }}" />
+<link rel="apple-touch-icon" sizes="114x114" href="{{ asset('assets/images/favicon/apple-icon-114x114.png') }}" />
+<link rel="apple-touch-icon" sizes="120x120" href="{{ asset('assets/images/favicon/apple-icon-120x120.png') }}" />
+<link rel="apple-touch-icon" sizes="144x144" href="{{ asset('assets/images/favicon/apple-icon-144x144.png') }}" />
+<link rel="apple-touch-icon" sizes="152x152" href="{{ asset('assets/images/favicon/apple-icon-152x152.png') }}" />
+<link rel="apple-touch-icon" sizes="180x180" href="{{ asset('assets/images/favicon/apple-icon-180x180.png') }}" />
+<link rel="icon" type="image/png" sizes="192x192" href="{{ asset('assets/images/favicon/android-icon-192x192.png') }}" />
+<link rel="icon" type="image/png" sizes="32x32" href="{{ asset('assets/images/favicon/favicon-32x32.png') }}" />
+<link rel="icon" type="image/png" sizes="96x96" href="{{ asset('assets/images/favicon/favicon-96x96.png') }}" />
+<link rel="icon" type="image/png" sizes="16x16" href="{{ asset('assets/images/favicon/favicon-16x16.png') }}" />
 
 <meta name="msapplication-TileColor" content="#ffffff" />
-<meta name="msapplication-TileImage" content="{{ asset('dasher-assets') }}/assets/images/favicon/ms-icon-144x144.png" />
+<meta name="msapplication-TileImage" content="{{ asset('assets/images/favicon/ms-icon-144x144.png') }}" />
 <meta name="theme-color" content="#ffffff" />
 <!-- Color modes -->
-<script src="{{ asset('dasher-assets') }}/assets/js/vendors/color-modes.js"></script>
+<script src="{{ asset('assets/js/vendors/color-modes.js') }}"></script>
 <script>
   if (localStorage.getItem('sidebarExpanded') === 'false') {
     document.documentElement.classList.add('collapsed');
@@ -39,12 +39,12 @@
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;500;600;700;800&display=swap" />
-<link rel="stylesheet" href="{{ asset('dasher-assets') }}/node_modules/simplebar/dist/simplebar.min.css" />
-<link rel="stylesheet" href="{{ asset('dasher-assets') }}/node_modules/@tabler/icons-webfont/tabler-icons.min.css" />
+<link rel="stylesheet" href="{{ asset('node_modules/simplebar/dist/simplebar.min.css') }}" />
+<link rel="stylesheet" href="{{ asset('node_modules/@tabler/icons-webfont/tabler-icons.min.css') }}" />
 
 <!-- Theme CSS -->
-<!-- build:css {{ asset('dasher-assets') }}/assets/css/theme.min.css -->
-<link rel="stylesheet" href="{{ asset('dasher-assets') }}/assets/css/theme.css" />
+<!-- build:css {{ asset('assets/css/theme.min.css') }} -->
+<link rel="stylesheet" href="{{ asset('assets/css/theme.css') }}" />
 <!-- endbuild -->
 
   </head>
@@ -58,7 +58,7 @@
             <div class="col-xl-4 offset-xl-4 col-md-12 col-12">
               <div class="text-center">
                 <a href="../../index.html" class="fs-2 fw-bold d-flex align-items-center gap-2 justify-content-center mb-6">
-                  <img src="{{ asset('dasher-assets') }}/assets/images/brand/logo/logo-icon.svg" alt="" />
+                  <img src="{{ asset('assets/images/brand/logo/logo-icon.svg') }}" alt="" />
                   <span>Dasher</span>
                 </a>
                 <h1 class="mb-1">Set new password</h1>
@@ -70,21 +70,26 @@
             <div class="col-xl-5 col-lg-6 col-md-8 col-12">
               <div class="card card-lg mb-6">
                 <div class="card-body p-6">
-                  <form class="needs-validation" novalidate>
+                  <form class="needs-validation" action="{{ route('auth.reset-password.post') }}" method="POST" novalidate>
+                    @csrf
                     <div class="mb-3">
                       <label for="formResetPassword" class="form-label">Password</label>
                       <div class="password-field position-relative">
-                        <input type="password" class="form-control fakePassword" id="formResetPassword" required />
+                        <input type="password" class="form-control @error('password') is-invalid @enderror fakePassword" name="password" id="formResetPassword" required />
                         <span><i class="ti ti-eye-off passwordToggler"></i></span>
-                        <div class="invalid-feedback">Please enter password.</div>
+                        @error('password')
+                          <div class="invalid-feedback">{{ $message }}</div>
+                        @else
+                          <div class="invalid-feedback">Please enter password.</div>
+                        @enderror
                       </div>
                     </div>
                     <div class="mb-3">
                       <label for="formResetConfirmPassword" class="form-label">Confirm Password</label>
                       <div class="password-field position-relative">
-                        <input type="password" class="form-control fakePassword" id="formResetConfirmPassword" required />
+                        <input type="password" class="form-control fakePassword" name="password_confirmation" id="formResetConfirmPassword" required />
                         <span><i class="ti ti-eye-off passwordToggler"></i></span>
-                        <div class="invalid-feedback">Please enter password.</div>
+                        <div class="invalid-feedback">Please confirm password.</div>
                       </div>
                     </div>
 
@@ -92,7 +97,7 @@
                       <button class="btn btn-primary" type="submit">Reset Password</button>
                     </div>
                     <div class="text-center">
-                      <a href="{{ url('/auth/sign-in') }}">
+                      <a href="{{ route('auth.sign-in') }}">
                         <span>Back to Login</span>
                       </a>
                     </div>
@@ -135,14 +140,14 @@
     </main>
 
     <!-- Libs JS -->
-<script src="{{ asset('dasher-assets') }}/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-<script src="{{ asset('dasher-assets') }}/node_modules/simplebar/dist/simplebar.min.js"></script>
+<script src="{{ asset('node_modules/bootstrap/dist/js/bootstrap.bundle.min.js') }}"></script>
+<script src="{{ asset('node_modules/simplebar/dist/simplebar.min.js') }}"></script>
 
 <!-- Theme JS -->
-<!-- build:js {{ asset('dasher-assets') }}/assets/js/theme.min.js -->
-<script src="{{ asset('dasher-assets') }}/assets/js/main.js"></script>
+<!-- build:js {{ asset('assets/js/theme.min.js') }} -->
+<script src="{{ asset('assets/js/main.js') }}"></script>
 <!-- endbuild -->
 
-    <script src="{{ asset('dasher-assets') }}/assets/js/vendors/password.js"></script>
+    <script src="{{ asset('assets/js/vendors/password.js') }}"></script>
   </body>
 </html>

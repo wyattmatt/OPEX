@@ -5,27 +5,27 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta content="Codescandy" name="author">
-    <title>Otp varification | Dasher - Responsive Bootstrap 5 Admin Dashboard</title>
+    <title>Otp Verification</title>
     <!-- Favicon icon-->
-<link rel="apple-touch-icon" sizes="57x57" href="{{ asset('dasher-assets') }}/assets/images/favicon/apple-icon-57x57.png" />
-<link rel="apple-touch-icon" sizes="60x60" href="{{ asset('dasher-assets') }}/assets/images/favicon/apple-icon-60x60.png" />
-<link rel="apple-touch-icon" sizes="72x72" href="{{ asset('dasher-assets') }}/assets/images/favicon/apple-icon-72x72.png" />
-<link rel="apple-touch-icon" sizes="76x76" href="{{ asset('dasher-assets') }}/assets/images/favicon/apple-icon-76x76.png" />
-<link rel="apple-touch-icon" sizes="114x114" href="{{ asset('dasher-assets') }}/assets/images/favicon/apple-icon-114x114.png" />
-<link rel="apple-touch-icon" sizes="120x120" href="{{ asset('dasher-assets') }}/assets/images/favicon/apple-icon-120x120.png" />
-<link rel="apple-touch-icon" sizes="144x144" href="{{ asset('dasher-assets') }}/assets/images/favicon/apple-icon-144x144.png" />
-<link rel="apple-touch-icon" sizes="152x152" href="{{ asset('dasher-assets') }}/assets/images/favicon/apple-icon-152x152.png" />
-<link rel="apple-touch-icon" sizes="180x180" href="{{ asset('dasher-assets') }}/assets/images/favicon/apple-icon-180x180.png" />
-<link rel="icon" type="image/png" sizes="192x192" href="{{ asset('dasher-assets') }}/assets/images/favicon/android-icon-192x192.png" />
-<link rel="icon" type="image/png" sizes="32x32" href="{{ asset('dasher-assets') }}/assets/images/favicon/favicon-32x32.png" />
-<link rel="icon" type="image/png" sizes="96x96" href="{{ asset('dasher-assets') }}/assets/images/favicon/favicon-96x96.png" />
-<link rel="icon" type="image/png" sizes="16x16" href="{{ asset('dasher-assets') }}/assets/images/favicon/favicon-16x16.png" />
+<link rel="apple-touch-icon" sizes="57x57" href="{{ asset('assets/images/favicon/apple-icon-57x57.png') }}" />
+<link rel="apple-touch-icon" sizes="60x60" href="{{ asset('assets/images/favicon/apple-icon-60x60.png') }}" />
+<link rel="apple-touch-icon" sizes="72x72" href="{{ asset('assets/images/favicon/apple-icon-72x72.png') }}" />
+<link rel="apple-touch-icon" sizes="76x76" href="{{ asset('assets/images/favicon/apple-icon-76x76.png') }}" />
+<link rel="apple-touch-icon" sizes="114x114" href="{{ asset('assets/images/favicon/apple-icon-114x114.png') }}" />
+<link rel="apple-touch-icon" sizes="120x120" href="{{ asset('assets/images/favicon/apple-icon-120x120.png') }}" />
+<link rel="apple-touch-icon" sizes="144x144" href="{{ asset('assets/images/favicon/apple-icon-144x144.png') }}" />
+<link rel="apple-touch-icon" sizes="152x152" href="{{ asset('assets/images/favicon/apple-icon-152x152.png') }}" />
+<link rel="apple-touch-icon" sizes="180x180" href="{{ asset('assets/images/favicon/apple-icon-180x180.png') }}" />
+<link rel="icon" type="image/png" sizes="192x192" href="{{ asset('assets/images/favicon/android-icon-192x192.png') }}" />
+<link rel="icon" type="image/png" sizes="32x32" href="{{ asset('assets/images/favicon/favicon-32x32.png') }}" />
+<link rel="icon" type="image/png" sizes="96x96" href="{{ asset('assets/images/favicon/favicon-96x96.png') }}" />
+<link rel="icon" type="image/png" sizes="16x16" href="{{ asset('assets/images/favicon/favicon-16x16.png') }}" />
 
 <meta name="msapplication-TileColor" content="#ffffff" />
-<meta name="msapplication-TileImage" content="{{ asset('dasher-assets') }}/assets/images/favicon/ms-icon-144x144.png" />
+<meta name="msapplication-TileImage" content="{{ asset('assets/images/favicon/ms-icon-144x144.png') }}" />
 <meta name="theme-color" content="#ffffff" />
 <!-- Color modes -->
-<script src="{{ asset('dasher-assets') }}/assets/js/vendors/color-modes.js"></script>
+<script src="{{ asset('assets/js/vendors/color-modes.js') }}"></script>
 <script>
   if (localStorage.getItem('sidebarExpanded') === 'false') {
     document.documentElement.classList.add('collapsed');
@@ -39,12 +39,12 @@
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;500;600;700;800&display=swap" />
-<link rel="stylesheet" href="{{ asset('dasher-assets') }}/node_modules/simplebar/dist/simplebar.min.css" />
-<link rel="stylesheet" href="{{ asset('dasher-assets') }}/node_modules/@tabler/icons-webfont/tabler-icons.min.css" />
+<link rel="stylesheet" href="{{ asset('node_modules/simplebar/dist/simplebar.min.css') }}" />
+<link rel="stylesheet" href="{{ asset('node_modules/@tabler/icons-webfont/tabler-icons.min.css') }}" />
 
 <!-- Theme CSS -->
-<!-- build:css {{ asset('dasher-assets') }}/assets/css/theme.min.css -->
-<link rel="stylesheet" href="{{ asset('dasher-assets') }}/assets/css/theme.css" />
+<!-- build:css {{ asset('assets/css/theme.min.css') }} -->
+<link rel="stylesheet" href="{{ asset('assets/css/theme.css') }}" />
 <!-- endbuild -->
 
   </head>
@@ -58,13 +58,13 @@
             <div class="col-xl-4 offset-xl-4 col-md-12 col-12">
               <div class="text-center">
                 <a href="../../index.html" class="fs-2 fw-bold d-flex align-items-center gap-2 justify-content-center mb-6">
-                  <img src="{{ asset('dasher-assets') }}/assets/images/brand/logo/logo-icon.svg" alt="" />
+                  <img src="{{ asset('assets/images/brand/logo/logo-icon.svg') }}" alt="" />
                   <span>Dasher</span>
                 </a>
                 <h1 class="mb-1">OTP Verification</h1>
                 <p class="mb-0">
                   We sent a code to
-                  <a href="#" class="text-inherit">dasher@example.com</a>
+                  <a href="#" class="text-inherit">{{ $email ?? '' }}</a>
                 </p>
               </div>
             </div>
@@ -73,31 +73,43 @@
             <div class="col-xl-4 col-lg-6 col-md-8 col-12">
               <div class="card card-lg mb-6">
                 <div class="card-body p-6">
-                  <form>
-                    <div class="d-flex flex-row gap-2 mb-5">
-                      <input type="text" class="form-control inputpass-code" maxlength="1" oninput="moveToNextInput(this)" />
-                      <input type="text" class="form-control inputpass-code" maxlength="1" oninput="moveToNextInput(this)" />
-                      <input type="text" class="form-control inputpass-code" maxlength="1" oninput="moveToNextInput(this)" />
-                      <input type="text" class="form-control inputpass-code" maxlength="1" oninput="moveToNextInput(this)" />
+                  <form action="{{ route('auth.otp-verification.post') }}" method="POST">
+                    @csrf
+                    @if($errors->any())
+                      <div class="alert alert-danger">
+                        <ul class="mb-0">
+                          @foreach($errors->all() as $error)
+                            <li>{{ $error }}</li>
+                          @endforeach
+                        </ul>
+                      </div>
+                    @endif
+                    <div class="mb-5">
+                      <label for="otp" class="form-label">Enter 6-digit OTP</label>
+                      <input type="text" class="form-control text-center fs-3 @error('otp') is-invalid @enderror" name="otp" id="otp" maxlength="6" pattern="\d{6}" required autocomplete="off" />
                     </div>
                     <div class="row">
                       <div class="col-md-12">
                         <div class="d-grid mb-4">
-                          <button class="btn btn-primary" type="submit">Continue</button>
+                          <button class="btn btn-primary" type="submit">Verify OTP</button>
                         </div>
                         <div class="text-center mb-3">
                           <span>
-                            Didn't receive the email? Click
-                            <a href="#">send it again.</a>
+                            Didn't receive the email? 
+                            <a href="#" onclick="event.preventDefault(); document.getElementById('resend-form').submit();">Send it again.</a>
                           </span>
                         </div>
                         <div class="text-center">
-                          <a href="{{ url('/auth/sign-in') }}">
+                          <a href="{{ route('auth.sign-in') }}">
                             <span>Back to Login</span>
                           </a>
                         </div>
                       </div>
                     </div>
+                  </form>
+                  <form id="resend-form" action="{{ route('auth.forgot-password.post') }}" method="POST" class="d-none">
+                      @csrf
+                      <input type="hidden" name="email" value="{{ $email ?? '' }}">
                   </form>
                 </div>
               </div>
@@ -137,14 +149,14 @@
     </main>
 
     <!-- Libs JS -->
-<script src="{{ asset('dasher-assets') }}/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-<script src="{{ asset('dasher-assets') }}/node_modules/simplebar/dist/simplebar.min.js"></script>
+<script src="{{ asset('node_modules/bootstrap/dist/js/bootstrap.bundle.min.js') }}"></script>
+<script src="{{ asset('node_modules/simplebar/dist/simplebar.min.js') }}"></script>
 
 <!-- Theme JS -->
-<!-- build:js {{ asset('dasher-assets') }}/assets/js/theme.min.js -->
-<script src="{{ asset('dasher-assets') }}/assets/js/main.js"></script>
+<!-- build:js {{ asset('assets/js/theme.min.js') }} -->
+<script src="{{ asset('assets/js/main.js') }}"></script>
 <!-- endbuild -->
 
-    <script src="{{ asset('dasher-assets') }}/assets/js/vendors/password.js"></script>
+    <script src="{{ asset('assets/js/vendors/password.js') }}"></script>
   </body>
 </html>

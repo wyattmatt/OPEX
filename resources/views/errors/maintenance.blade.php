@@ -5,27 +5,27 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta content="Codescandy" name="author">
-    <title>Maintenance | Dasher - Responsive Bootstrap 5 Admin Dashboard</title>
+    <title>Maintenance</title>
     <!-- Favicon icon-->
-<link rel="apple-touch-icon" sizes="57x57" href="{{ asset('dasher-assets') }}/assets/images/favicon/apple-icon-57x57.png" />
-<link rel="apple-touch-icon" sizes="60x60" href="{{ asset('dasher-assets') }}/assets/images/favicon/apple-icon-60x60.png" />
-<link rel="apple-touch-icon" sizes="72x72" href="{{ asset('dasher-assets') }}/assets/images/favicon/apple-icon-72x72.png" />
-<link rel="apple-touch-icon" sizes="76x76" href="{{ asset('dasher-assets') }}/assets/images/favicon/apple-icon-76x76.png" />
-<link rel="apple-touch-icon" sizes="114x114" href="{{ asset('dasher-assets') }}/assets/images/favicon/apple-icon-114x114.png" />
-<link rel="apple-touch-icon" sizes="120x120" href="{{ asset('dasher-assets') }}/assets/images/favicon/apple-icon-120x120.png" />
-<link rel="apple-touch-icon" sizes="144x144" href="{{ asset('dasher-assets') }}/assets/images/favicon/apple-icon-144x144.png" />
-<link rel="apple-touch-icon" sizes="152x152" href="{{ asset('dasher-assets') }}/assets/images/favicon/apple-icon-152x152.png" />
-<link rel="apple-touch-icon" sizes="180x180" href="{{ asset('dasher-assets') }}/assets/images/favicon/apple-icon-180x180.png" />
-<link rel="icon" type="image/png" sizes="192x192" href="{{ asset('dasher-assets') }}/assets/images/favicon/android-icon-192x192.png" />
-<link rel="icon" type="image/png" sizes="32x32" href="{{ asset('dasher-assets') }}/assets/images/favicon/favicon-32x32.png" />
-<link rel="icon" type="image/png" sizes="96x96" href="{{ asset('dasher-assets') }}/assets/images/favicon/favicon-96x96.png" />
-<link rel="icon" type="image/png" sizes="16x16" href="{{ asset('dasher-assets') }}/assets/images/favicon/favicon-16x16.png" />
+<link rel="apple-touch-icon" sizes="57x57" href="{{ asset('assets/images/favicon/apple-icon-57x57.png') }}" />
+<link rel="apple-touch-icon" sizes="60x60" href="{{ asset('assets/images/favicon/apple-icon-60x60.png') }}" />
+<link rel="apple-touch-icon" sizes="72x72" href="{{ asset('assets/images/favicon/apple-icon-72x72.png') }}" />
+<link rel="apple-touch-icon" sizes="76x76" href="{{ asset('assets/images/favicon/apple-icon-76x76.png') }}" />
+<link rel="apple-touch-icon" sizes="114x114" href="{{ asset('assets/images/favicon/apple-icon-114x114.png') }}" />
+<link rel="apple-touch-icon" sizes="120x120" href="{{ asset('assets/images/favicon/apple-icon-120x120.png') }}" />
+<link rel="apple-touch-icon" sizes="144x144" href="{{ asset('assets/images/favicon/apple-icon-144x144.png') }}" />
+<link rel="apple-touch-icon" sizes="152x152" href="{{ asset('assets/images/favicon/apple-icon-152x152.png') }}" />
+<link rel="apple-touch-icon" sizes="180x180" href="{{ asset('assets/images/favicon/apple-icon-180x180.png') }}" />
+<link rel="icon" type="image/png" sizes="192x192" href="{{ asset('assets/images/favicon/android-icon-192x192.png') }}" />
+<link rel="icon" type="image/png" sizes="32x32" href="{{ asset('assets/images/favicon/favicon-32x32.png') }}" />
+<link rel="icon" type="image/png" sizes="96x96" href="{{ asset('assets/images/favicon/favicon-96x96.png') }}" />
+<link rel="icon" type="image/png" sizes="16x16" href="{{ asset('assets/images/favicon/favicon-16x16.png') }}" />
 
 <meta name="msapplication-TileColor" content="#ffffff" />
-<meta name="msapplication-TileImage" content="{{ asset('dasher-assets') }}/assets/images/favicon/ms-icon-144x144.png" />
+<meta name="msapplication-TileImage" content="{{ asset('assets/images/favicon/ms-icon-144x144.png') }}" />
 <meta name="theme-color" content="#ffffff" />
 <!-- Color modes -->
-<script src="{{ asset('dasher-assets') }}/assets/js/vendors/color-modes.js"></script>
+<script src="{{ asset('assets/js/vendors/color-modes.js') }}"></script>
 <script>
   if (localStorage.getItem('sidebarExpanded') === 'false') {
     document.documentElement.classList.add('collapsed');
@@ -39,12 +39,12 @@
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;500;600;700;800&display=swap" />
-<link rel="stylesheet" href="{{ asset('dasher-assets') }}/node_modules/simplebar/dist/simplebar.min.css" />
-<link rel="stylesheet" href="{{ asset('dasher-assets') }}/node_modules/@tabler/icons-webfont/tabler-icons.min.css" />
+<link rel="stylesheet" href="{{ asset('node_modules/simplebar/dist/simplebar.min.css') }}" />
+<link rel="stylesheet" href="{{ asset('node_modules/@tabler/icons-webfont/tabler-icons.min.css') }}" />
 
 <!-- Theme CSS -->
-<!-- build:css {{ asset('dasher-assets') }}/assets/css/theme.min.css -->
-<link rel="stylesheet" href="{{ asset('dasher-assets') }}/assets/css/theme.css" />
+<!-- build:css {{ asset('assets/css/theme.min.css') }} -->
+<link rel="stylesheet" href="{{ asset('assets/css/theme.css') }}" />
 <!-- endbuild -->
 
   </head>
@@ -59,7 +59,7 @@
               <p>We're making the system more awesome. We'll be back shortly.</p>
             </div>
             <div>
-              <img src="../../assets/images/svg/maintenance.svg" alt="Image" style="width: 500px" />
+              <img src="{{ asset('assets/images/svg/maintenance.svg') }}" alt="Image" style="width: 500px" />
             </div>
           </div>
         </div>
@@ -152,8 +152,8 @@
                     </div>
                     <div>
                       <h3 class="fs-5">Do you need support?</h3>
-                      <p>In emergrancy, our team will help you. Just drop a message to the</p>
-                      <a href="#!" class="text-inherit">Dasher@example.com</a>
+                      <p>In emergency, our team will help you. Just drop a message to the email below.</p>
+                      <a href="mailto:ict.makassar@ciputra.ac.id" class="text-inherit">ict.makassar@ciputra.ac.id</a>
                     </div>
                   </div>
                 </div>
@@ -193,12 +193,12 @@
     </main>
 
     <!-- Libs JS -->
-<script src="{{ asset('dasher-assets') }}/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-<script src="{{ asset('dasher-assets') }}/node_modules/simplebar/dist/simplebar.min.js"></script>
+<script src="{{ asset('node_modules/bootstrap/dist/js/bootstrap.bundle.min.js') }}"></script>
+<script src="{{ asset('node_modules/simplebar/dist/simplebar.min.js') }}"></script>
 
 <!-- Theme JS -->
-<!-- build:js {{ asset('dasher-assets') }}/assets/js/theme.min.js -->
-<script src="{{ asset('dasher-assets') }}/assets/js/main.js"></script>
+<!-- build:js {{ asset('assets/js/theme.min.js') }} -->
+<script src="{{ asset('assets/js/main.js') }}"></script>
 <!-- endbuild -->
 
   </body>

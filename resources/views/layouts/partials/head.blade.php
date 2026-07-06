@@ -1,12 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <!-- Required meta tags -->
+  <!-- Required meta tags -->
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta content="Codescandy" name="author">
-    <title>404 error</title>
-    <!-- Favicon icon-->
+  <title>@yield('title', 'Dashboard')</title>
+  <link rel="stylesheet" href="{{ asset('node_modules/swiper/swiper-bundle.min.css') }}" />
+  <!-- Favicon icon-->
 <link rel="apple-touch-icon" sizes="57x57" href="{{ asset('assets/images/favicon/apple-icon-57x57.png') }}" />
 <link rel="apple-touch-icon" sizes="60x60" href="{{ asset('assets/images/favicon/apple-icon-60x60.png') }}" />
 <link rel="apple-touch-icon" sizes="72x72" href="{{ asset('assets/images/favicon/apple-icon-72x72.png') }}" />
@@ -47,68 +45,4 @@
 <link rel="stylesheet" href="{{ asset('assets/css/theme.css') }}" />
 <!-- endbuild -->
 
-  </head>
-
-  <body>
-    <main class="vh-100 d-flex align-items-center justify-content-center">
-      <section class="container">
-        <!-- row -->
-        <div class="row justify-content-center">
-          <!-- col -->
-          <div class="col-12">
-            <!-- content -->
-            <div class="text-center">
-              <div>
-                <!-- img -->
-                <img src="{{ asset('assets/images/svg/404.svg') }}" alt="Image" class="img-fluid" />
-              </div>
-              <!-- text -->
-              <h1 class="display-4">Oops! the page not found.</h1>
-              <p class="mb-6 fs-5">Or simply leverage the expertise of our consultation team.</p>
-              <!-- button -->
-              <a href="{{ url('/') }}" class="btn btn-primary btn-lg">Go Home</a>
-            </div>
-          </div>
-        </div>
-      </section>
-      <div class="position-absolute end-0 bottom-0 m-4">
-        <div class="dropdown">
-          <button class="btn btn-light btn-icon rounded-circle d-flex align-items-center" type="button" aria-expanded="false" data-bs-toggle="dropdown" aria-label="Toggle theme (auto)">
-            <i class="bi theme-icon-active lh-1"><i class="bi theme-icon bi-sun-fill"></i></i>
-            <span class="visually-hidden bs-theme-text">Toggle theme</span>
-          </button>
-          <ul class="dropdown-menu dropdown-menu-end shadow">
-            <li>
-              <button type="button" class="dropdown-item d-flex align-items-center active" data-bs-theme-value="light" aria-pressed="true">
-                <i class="ti theme-icon ti ti-sun"></i>
-                <span class="ms-2">Light</span>
-              </button>
-            </li>
-            <li>
-              <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="dark" aria-pressed="false">
-                <i class="ti theme-icon ti-moon-stars"></i>
-                <span class="ms-2">Dark</span>
-              </button>
-            </li>
-            <li>
-              <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="auto" aria-pressed="false">
-                <i class="ti theme-icon ti-circle-half-2"></i>
-                <span class="ms-2">Auto</span>
-              </button>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </main>
-
-    <!-- Libs JS -->
-<script src="{{ asset('node_modules/bootstrap/dist/js/bootstrap.bundle.min.js') }}"></script>
-<script src="{{ asset('node_modules/simplebar/dist/simplebar.min.js') }}"></script>
-
-<!-- Theme JS -->
-<!-- build:js {{ asset('assets/js/theme.min.js') }} -->
-<script src="{{ asset('assets/js/main.js') }}"></script>
-<!-- endbuild -->
-
-  </body>
-</html>
+@stack('styles')

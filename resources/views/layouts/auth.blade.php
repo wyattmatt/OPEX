@@ -11,9 +11,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/simplebar@6.2.7/dist/simplebar.min.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@2.45.0/dist/tabler-icons.min.css" />
-    <link rel="stylesheet" href="{{ asset('dasher-assets/assets/css/theme.css') }}" />
+    <link rel="stylesheet" href="{{ asset('assets/css/theme.css') }}" />
 
-    <script src="{{ asset('dasher-assets/assets/js/vendors/color-modes.js') }}"></script>
+    <script src="{{ asset('assets/js/vendors/color-modes.js') }}"></script>
     @stack('head')
   </head>
   <body>
@@ -50,7 +50,7 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/simplebar@6.2.7/dist/simplebar.min.js"></script>
-    <script src="{{ asset('dasher-assets/assets/js/main.js') }}"></script>
+    <script src="{{ asset('assets/js/main.js') }}"></script>
     @stack('scripts')
   </body>
 </html>
